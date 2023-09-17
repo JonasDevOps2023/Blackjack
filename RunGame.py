@@ -248,17 +248,7 @@ class MyWindow(QMainWindow):
     def updateStats(self, house = False):
 
         _, hands, handsTotals, cardsShown = self.game.getPlayerStats()
-        #print(f"Cards Shown: {cardsShown}")
 
-        #print(self.game.players[self.current_player].cardsShown)
-        #print(self.game.players[self.current_player].cardsShown)
-        #print(self.game.players[self.current_player].cardsShown)
-        #print(self.game.players[self.current_player].cardsShown)
-
-        
-
-
-        #print(hands)
         if not self.game.players[self.current_player].cardsShown == None:
             index = self.game.players[self.current_player].cardsShown - 1
             if self.game_players_cards[self.current_player][index].isNull():
