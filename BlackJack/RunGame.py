@@ -278,7 +278,7 @@ class MyWindow(QMainWindow):
                 
     def updateEnd(self):
         dealer_total = self.game.getHouseTotal()
-        self.dealer_label.set
+        #self.dealer_label.set
         self.dealer_total_label.setText(str(dealer_total))
         self.showHouseCards()
 
