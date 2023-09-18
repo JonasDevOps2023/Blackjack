@@ -11,3 +11,4 @@ print(f"sorted() time: {time.time()-start}")
 start = time.time()
 l.sort()
 print(f"List.sort() time: {time.time()-start}")
+
